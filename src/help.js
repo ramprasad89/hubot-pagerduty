@@ -9,8 +9,7 @@ module.exports = function(robot) {
 					pd pager service info <search> - list service matching <search> \n \
 					pd pager services - list services \n \
 					pd who's on call - return a list of services and who is on call for them \n \
-					pd who's on call for <schedule> - return the username of who's on call for any schedule matching <search> \n \
-					For more information please visit https://tools.timeinc.net/wiki/display/IOPRIVATE/Hubot+Commands "
+					pd who's on call for <schedule> - return the username of who's on call for any schedule matching <search> \n \ "
 
   return msg.send(helpMessage);
  });
